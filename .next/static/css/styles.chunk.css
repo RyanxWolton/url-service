@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Lato";
+  src: url("/static/fonts/Lato-Regular.ttf"); }
+
+* {
+  font-family: 'Lato'; }
+
+body {
+  margin: 0;
+  background: #208CB3;
+  color: #f5f5f5;
+  text-align: center; }
+
+h1 {
+  font-size: 2rem; }
+
+.form-element {
+  padding: 1em;
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  font-size: 1rem; }
+  .form-element:focus {
+    outline: none; }
+
+input {
+  border: 1px solid #f5f5f5;
+  margin: 0 1rem;
+  width: 33%;
+  background-color: #f5f5f5;
+  color: #6F8A99; }
+
+button {
+  color: #f5f5f5;
+  background-color: #6F8A99;
+  border-color: #6F8A99;
+  cursor: pointer; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
